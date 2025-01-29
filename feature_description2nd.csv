@@ -50,4 +50,4 @@ MoSold,month house was sold,Continuous,MM(1-12)
 YrSold,year hous was sold,Continuous,YYYY(<2005)
 SaleType,type of contract made between seller and buyer,Categorical,10 distinct values
 SaleCondition,condition of sale,Categorical,normal/abnormal/adjoining/family
-SalePrice,price of the house sold,Continuous,,
+SalePrice,price of the house sold,Continuous,
