@@ -1,0 +1,53 @@
+Features,Meaning,Feature type,Additional comments
+Foundation,type of foundation,Categorical,6 discrete values
+BsmtQual,basement height,Categorical,continuous values split into ranges
+BsmtCond,basement condition,Categorical,excellent/good/typical etc.
+BsmtExposure,how much of the basement is exposed to the outside,Categorical,5 discrete values
+BsmtFinType1,rating of living quarters in the basement,Categorical,Good/avg/below avg etc.
+BsmtFinSF1,finished square feet,Continuous,values between 0 and 5644
+BsmtFinType2,rating of living quarters in the basement if multiple,Categorical,same as BsmtFinType1
+BsmtFinSF2,finished square feet,Continuous,values between 0 and 1474
+BsmtUnfSF,unfinished square feet of basement area,Continuous,values between 0 and 2336
+TotalBsmtSF,total area (finished+unfinished),Continuous,values between 0 and 6110
+Heating,type of heating,Categorical,6 distinct values
+HeatingQC,heating quality,Categorical,excellent/good/average etc.
+CentralAir,central AC,Categorical,yes or no
+Electrical,electrical circuit,Categorical,type of fuse
+1stFlrSF,1st floor square feet area, Continuous,values between 334 and 4692
+2ndFlrSF,2nd floor square feet area,Continuous,values between 0(no 2nd floor) and 2065
+2ndFlrSF,low quality finished square feet area(all floor combined),Continuous,values between 0 and 572
+GrLivArea,above grade ground living area,Continuous,values between 334 and 5642
+BsmtFullBath,how many full bathrooms does the basement contain,Continuous,0/1/2/3
+BsmtHalfBath,count of half bathrooms in basement,Continuous,0/1/2
+FullBath,how many of the full bathrooms present are above grade,Continuous,0/1/2/3
+HalfBath,how many of the half bathrooms present are above grade,Continuous,0/1/2
+BedroomAbvGr,count of bedrooms above grade(not including basement bedrooms),Continuous,0 to 8
+KitchenAbvGr,count of kitchens above grade,Continuous,0 to 3
+KitchenQual,kitchen quality,Categorical,5 distinct values
+TotRmsAbvGrd,total rooms above grade(does not include bathrooms),Continuous,2 to 14
+Functional,grading the functionality of the home,Categorical,8 distinct values
+Fireplaces,number of fireplaces,Continuous,0 to 3
+FireplaceQu,fireplace quality,Categorical,excellent/good/average etc.
+GarageType,garage location,Categorical,where the garage is located wrt to the house
+GarageYrBlt,year the garage was built,Continuous,NA
+GarageFinish,interior finish,Categorical,finished/unfinished
+GarageCars,how many cars can the garage fit,Continuous,0 to 4
+GarageArea,area of the garage in square feet,Continuous,values between 0 to 1418
+GarageQual,quality of garage,Categorical,same as other quality featurs
+GarageCond,condition of garage,Categorical,same as other quality features
+PavedDrive,whether the driveway is paved or not,Categorical,paved/partial/unpaved
+WoodDeckSF,deck area in square feet,Continuous,values between 0 to 857
+OpenPorchSF,open porch area,Continuous,0 to 547
+EnclosedPorch,closed porch area,Continuous,0 to 552
+3SsnPorch,3 season porch area,Continuous,NA
+ScreenPorch,screen porch area,Continuous,NA
+PoolArea,pool area,Continuous,0 to 738
+PoolQC,pool quality,Categorical,same as other quality features
+Fence,fence quality,Categorical,good privacy/minimum privacy/good wood/minimum wood or wire
+MiscFeature,other features,Categorical,elevator/2nd garage/other/
+MiscVal,price of miscellaneous features,Continuous,NA
+MoSold,month house was sold,Continuous,MM(1-12)
+YrSold,year hous was sold,Continuous,YYYY(<2005)
+SaleType,type of contract made between seller and buyer,Categorical,10 distinct values
+SaleCondition,condition of sale,Categorical,normal/abnormal/adjoining/family
+SalePrice,price of the house sold,Continuous,,
